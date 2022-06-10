@@ -54,7 +54,7 @@ For HRF dataset
 ```
 
 ## Pretrained models
-Please download the pretrained models from google drive(https://drive.google.com/drive/folders/1idqTGV22qVsKDAO0tgOkMtuPbdZCNMys?usp=sharing)
+Please download the pretrained models from [google drive](https://drive.google.com/drive/folders/1idqTGV22qVsKDAO0tgOkMtuPbdZCNMys?usp=sharing) </br>
 To test the pretrained model, you can change the ./config/config_test_HRF.py or ./config/config_test_AV_DRIVE.py : 
 ```
 model_path_pretrained_G = './pretrained_model_path'
