@@ -3,7 +3,6 @@ This repository is an official PyTorch implementation of the paper **"TW-GAN: To
 
 
 ## TW-GAN
-----------
 
 <div align=center><img width="600" src=./figs/architecture.png></div>
 
@@ -13,11 +12,9 @@ This repository is an official PyTorch implementation of the paper **"TW-GAN: To
 * Moreover, to enhance the model’s perception of vessel width, a width-aware module is proposed to predict the width maps for the dilated/non-dilated ground-truth masks.
 
 ## Prequisites
-----------
 You can "pip install" the packages in "./requirement.txt"
 
 ## Dataset
-----------
 * To prepare the dataset, you can download AV-DRIVE and HRF datasets from [google drive](https://drive.google.com/drive/folders/1mMkKJ3fpwamf1TVwym9IsZm9f8c6uHnf?usp=sharing). 
 * Please place dataset in ./data directory.
 * ./data folder includes the datasets for AV-DRIVE and HRF, their corresponding centerline distance maps and shuffled masks.
@@ -25,7 +22,6 @@ You can "pip install" the packages in "./requirement.txt"
 ** The A/V label for [HRF dataset](https://drive.google.com/drive/folders/1Uluvc8Cib-acddIkj4Mk5o49U9t7ps60?usp=sharing) is mannually labeled by us.<br/>
 
 ## Data preprocessing
-----------
 To prepare the centerline distance map and shuffled A/V label for dataset, please run:
 ```bash
     sh ./launch/preprocess_data.sh
@@ -54,7 +50,6 @@ For HRF dataset
 ```
 
 ## Cite
-----------
 If you find our work useful in your research or publication, please cite our work:
 ```
 @article{CHEN2022102340,
@@ -70,7 +65,7 @@ author = {Wenting Chen and Shuang Yu and Kai Ma and Wei Ji and Cheng Bian and Ch
 ```
 
 ## Contact
------------
+
 If you have any question, please feel free to contact me. ^_^ wentichen7-c[at]my.cityu.edu.hk
 
 
