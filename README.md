@@ -29,6 +29,11 @@ To prepare the centerline distance map and shuffled A/V label for dataset, pleas
 (The downloaded "./data" folder includes the processed centerline distance map and shuffled A/V label. So you don't need to run it if you download it.)
 
 ## Usage
+Please make a new "log" folder first:
+```bash
+    mkdir log
+```
+
 For AV-DRIVE dataset
 * Train:
 ```bash
